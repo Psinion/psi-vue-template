@@ -1,0 +1,21 @@
+@layer
+  reset,
+  core,
+  typography,
+  themes,
+  utilities
+;
+
+@layer reset {
+  @import "reset";
+}
+
+@layer core {
+  @import "variables";
+  @import "base";
+  @import "fonts";
+}
+
+@layer typography {
+  @import "typography";
+}
